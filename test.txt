@@ -7,6 +7,7 @@ git log 版本记录
 git reset --hard commit_id 更改版本
 git reflog 操作记录
 git checkout --file 回到上次add或commit后的状态
+git rm file 从版本库去除文件 需要commit
 
 源文件在工作区
 add计入暂存区
