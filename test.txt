@@ -1,2 +1,6 @@
+cd dir and git init
 git add file
 git commit -m "add file"
+git status
+git diff file
+
