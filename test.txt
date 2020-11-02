@@ -1,6 +1,14 @@
-cd dir and git init
-git add file
-git commit -m "add file"
-git status
-git diff file
+cd dir and git init 建立版本库
+git add file 加入暂存区
+git commit -m "add file" 提交版本
+git status 修改文件记录
+git diff file 修改内容
+git log 版本记录
+git reset --hard commit_id 更改版本
+git reflog 操作记录
+git checkout --file 回到上次add或commit后的状态
 
+源文件在工作区
+add计入暂存区
+commit合并暂存区为新版本
+记录更改
